@@ -32,6 +32,7 @@ CREATE TABLE properties (
   active BOOLEAN NOT NULL DEFAULT TRUE
 );
 
+
 CREATE TABLE reservations (
   id SERIAL PRIMARY KEY NOT NULL,
   start_date DATE NOT NULL,
@@ -48,3 +49,4 @@ CREATE TABLE property_reviews (
   rating SMALLINT NOT NULL DEFAULT 0,
   message TEXT
 );
+
